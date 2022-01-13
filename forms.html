@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration page</title>
+    <meta charset="utf-8" />
+</head>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="forms.html">Sign up</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+</div>
+
+<body>
+    <form action="https://www.w3schools.com/action_page.php">
+        <fieldset>
+            <legend>Create a new user:</legend>
+            <label for="fname">Etunimi:</label>
+            <input type="text" id="fname" name="etunimi" tabindex="1"> <br>
+            <label for="lname">Sukunimi:</label>
+            <input type="text" id="lname" name="sukunimi" tabindex="2"> <br>
+            <label for="email">Sähköpostiosoite:</label>
+            <input type="text" id="email" name="email" required><br>
+            <input type="checkbox" id="newsletter" name="newsletter" value="Yes">
+            <label for="newsletter">Signup for newsletter</label><br>
+            <textarea rows="4" cols="80"></textarea><br>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            <input type="submit" value="Create new user">
+        </fieldset>
+    </form>
+</body>
+
+</html>
